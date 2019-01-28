@@ -37,6 +37,18 @@ The algorithm for the given sample is explained through the following table:
 
 From this table, we observe that 7 page faults occur, out of 14 references. Thus, the page fault rate is = 7/14 = 50%.
 
+### Instructions
+
+The project was tested on ModelSim - Intel FGPA Starter Edition 10.5b, and the instructions are for the same.
+1. Run `ModelSim - Intel FPGA Starter Edition 10.5b (Quartus Prime 17.1)`
+2. Go to `File` -> `Open` and open `VHDLLabProject.vhdl`.
+3. In the project tab, right click `VHDLLabProject.vhdl` and click on `Edit`, or alternatively, just double click on it, to inspect the code.
+4. Right click `VHDLLabProject.vhdl` and click on `Compile` -> `Compile Selected` to compile. (Ignore the warnings.)
+5. Under the library tab, locate `opr`, right click on it and select `Simulate`.
+6. In the simulation (`Wave` tab), right click on `opr` and select `Add to` -> `Wave` -> `All items in region`.
+7. Add your own values, or just use the pre-defined values for `referenceString`. From the toolbar, click on `Run`.
+8. Result is stored in `opr.dat` in the same directory.
+
 ### Page Replacement Algorithms
 https://www.geeksforgeeks.org/page-replacement-algorithms-in-operating-systems/
 
